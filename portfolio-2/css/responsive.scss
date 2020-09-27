@@ -1,0 +1,115 @@
+/*=======================
+    Device Size Variables
+========================*/
+$mobile: 480px;
+$tablet: 1010px;
+
+
+// Tablet Mode
+@media only screen and (min-width:200px) and (max-width: $tablet){
+    .container{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    header {
+        // flex-direction: column;
+        .inner_top_header{
+            .info{
+                width: 100%;
+                display: flex;
+                // margin-bottom: 15px;
+                flex-direction: column;
+
+                .phone{
+                    margin-right: 25px;
+
+                }
+            }
+            .search_bar{
+                width: 260px;
+            }
+        }
+        nav{
+            margin-bottom: 0;
+            .navbar{
+                .logo{
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .inner_main{
+        .bx-wrapper{
+            .bx-viewport {
+                height: 300px !important;
+            }
+        }
+        .qoute{
+            font-size: 1.4rem;
+        }
+    }
+    hr{
+        margin-bottom: 30px;
+    }
+    section{
+        hr{
+            margin: 30px auto!important;
+        }
+        .profile{
+            flex-direction: column;
+
+            .left_section, .right_section{
+                width: 100%;
+                grid-gap: 20px;
+                grid-template-rows: 40px;
+
+                hr{
+                    margin: 0!important;
+                    grid-row: 2;
+                }
+            }
+            .right_section{
+                margin-bottom: 15px;
+                .r{
+                    justify-content: space-around;
+                }
+            }
+        }
+    }
+    footer{
+        .inner_footer{
+            .main_footer{
+                flex-direction: column;
+                display: grid;
+                gap: 20px;
+                grid-template-areas: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr;
+
+                .contact_section{
+                    .newsletter {
+                        input {
+                            margin-bottom: 10px;
+
+                            &[type="submit"]{
+                                display: block;
+                            }
+                        }
+                    }
+                }
+        }
+       }
+    }
+    .mean-container .mean-bar {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+
+}
+
+// Mobile Mode
