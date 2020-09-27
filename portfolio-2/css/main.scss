@@ -322,7 +322,10 @@ hr{
         gap: 20px;
         color: rgb(138, 138, 138);
         a{
-            color: #fff;
+            color: rgb(225, 226, 148);
+        }
+        h4{
+            color: rgb(214, 214, 214);
         }
         .about_section{
             flex-basis: 25%;
@@ -358,6 +361,9 @@ hr{
             margin-left: 7.5px;
             h4{
                 padding-bottom: 20px;
+            }
+            h3{
+                font-size: 1rem;
             }
             .b1{
                 margin-bottom: 10px;

@@ -390,7 +390,11 @@ hr {
 }
 
 .inner_footer .main_footer a {
-  color: #fff;
+  color: #e1e294;
+}
+
+.inner_footer .main_footer h4 {
+  color: #d6d6d6;
 }
 
 .inner_footer .main_footer .about_section {
@@ -440,6 +444,10 @@ hr {
 
 .inner_footer .main_footer .blog_section h4 {
   padding-bottom: 20px;
+}
+
+.inner_footer .main_footer .blog_section h3 {
+  font-size: 1rem;
 }
 
 .inner_footer .main_footer .blog_section .b1 {
